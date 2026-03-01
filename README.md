@@ -27,15 +27,18 @@
 ## 🛠 Установка и запуск
 
 1. Клонировать репозиторий:
-   ```bash
+   ```powershell
    git clone <url-репозитория>
    ```
 2. Установить зависимости:
-   ```bash
+   ```powershell
    npm install
    ```
-   3.Запустить сервер разработки:
-
-```bash
-npm install
-```
+3. Удалить шаблонный .git
+   ```powershell
+   Remove-Item -Recurse -Force .git
+   ```
+4.Запустить сервер разработки:
+   ```powershell
+   npm install
+   ```
