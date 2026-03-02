@@ -31,14 +31,18 @@
    git clone <url-репозитория>
    ```
 2. Установить зависимости:
+
    ```powershell
    npm install
    ```
-3. Удалить шаблонный .git
+
+3. Отвязать репозиторий от шаблонного
    ```powershell
    Remove-Item -Recurse -Force .git
    ```
+
 4.Запустить сервер разработки:
-   ```powershell
-   npm install
-   ```
+
+```powershell
+npm install
+```
