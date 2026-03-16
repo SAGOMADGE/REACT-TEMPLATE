@@ -10,6 +10,8 @@
   --space-xl: 32px;
   --space-2xl: 48px;
 
+  --container-width: 1200px;
+
   /* Текст */
   --text-main: #f8fafc;
   --text-muted: #94a3b8;
@@ -29,12 +31,14 @@
   --bg-color: #0f172a;
   --card-bg: #1e293b;
   --nav-bg: #1a1a1a;
+  --footer-bg: #1a1a1a;
 
   /* Акценты и статусы */
   --primary: #38bdf8;
   --primary-hover: #0ea5e9;
   --accent: #818cf8;
   --danger: #ef4444;
+  --danger-hover: #e54444;
   --success: #22c55e;
   --warning: #f59e0b;
 
